@@ -1,0 +1,68 @@
+.SiteLogo {
+	padding: 0;
+}
+
+.SiteContent {
+	margin-top: 0;
+}
+
+
+.PageTitle {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.PageTitle:after {
+	content: "";
+	display: block;
+	max-width: 540px;
+	margin: 0 auto 0.25em;
+	height: 1px;
+	background: #ccc;
+}
+
+.PageDescription {
+	margin: 1em 0;
+}
+
+.List:before {
+	content: "";
+	display: block;
+	max-width: 540px;
+	margin: 0 auto;
+	height: 1px;
+	background: #ccc;
+}
+
+.OtherFragments {
+	margin-top: 1em;
+	padding-top: 0.25em;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+section {
+	position: relative;
+	background:  #fafafa;
+	padding: 0 0 0.70em;
+}
+
+section:after, section:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 99999px;
+	background: #fafafa;
+}
+
+section:before {
+	right: 100%;
+}
+
+section:after {
+	left: 100%;
+}
